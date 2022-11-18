@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const { Role } = require("../../app/models");
 
 const names = [
-  "Johnny",
+  "Alonez",
   "Fikri",
   "Brian",
   "Ranggawarsita",
@@ -20,13 +20,13 @@ module.exports = {
 
     const role = await Role.findOne({
       where: {
-        name: "CUSTOMER",
+        name: "ADMIN",
       }
     })
 
     const users = names.map((name) => ({
       name,
-      email: `${name.toLowerCase()}@binar.co.id`,
+      email: `${name.toLowerCase()}@gmail.com`,
       encryptedPassword,
       roleId: role.id, 
       createdAt: timestamp,
