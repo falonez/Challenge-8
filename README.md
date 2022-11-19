@@ -62,6 +62,11 @@ To run this project, you will need to add the following environment variables to
 
 ## API Reference
 
+#### API
+
+```http
+  https://challenge-8-production-4db3.up.railway.app/
+```
 #### Authentication
 
 
