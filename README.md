@@ -25,16 +25,6 @@ Start the server
   npm run start
 ```
 
-
-## Installation
-
-Install challenge-8 with npm
-
-```bash
-  cd challenge-8
-  npm i
-```
-    
 ## Running Tests
 
 To run tests, run the following command
