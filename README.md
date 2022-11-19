@@ -10,7 +10,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd challenge-9
+  cd challenge-8
 ```
 
 Install dependencies
